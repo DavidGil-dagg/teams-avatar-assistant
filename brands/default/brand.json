@@ -1,0 +1,40 @@
+{
+  "assistant": {
+    "name": "Ada",
+    "inSentence": "Ada",
+    "title": "Ada"
+  },
+  "company": "",
+  "description": "Ada, asistente de voz con avatar animado para Microsoft Teams.",
+  "texts": {
+    "loginLead": "Asistente de voz para tu equipo. Entra para hablar con ella.",
+    "intro": "Tu asistente de voz en Teams. Háblale para pensar una idea, preparar un mensaje o resolver una duda.",
+    "thinking": "Pensando…"
+  },
+  "font": "manrope",
+  "logo": null,
+  "colors": {
+    "deep": "#17122B",
+    "base": "#2D2456",
+    "accent": "#F5B642",
+    "soft": "#B9A8FF",
+    "muted": "#A3A1B5"
+  },
+  "scene": {
+    "floor": "grid",
+    "thinkingGlyphs": ["✦", "✧", "✦"]
+  },
+  "voice": "marin",
+  "persona": [
+    "Eres Ada, una asistente de inteligencia artificial dentro de Microsoft Teams.",
+    "Eres clara, serena y profesional, con una calidez cercana y un humor ligero y ocasional. Hablas con naturalidad y precisión, sin frialdad ni exceso de entusiasmo."
+  ],
+  "teams": {
+    "developer": "Teams Assistant",
+    "shortName": "Ada",
+    "fullName": "Ada: asistente de voz",
+    "shortDescription": "Habla por voz con Ada, una asistente de IA con avatar animado.",
+    "fullDescription": "Ada es una asistente de inteligencia artificial con voz en tiempo real y un avatar animado. Háblale para pensar una idea, preparar un mensaje o resolver una duda. Usa tu cuenta de Microsoft para identificarte y necesita permiso para usar el micrófono.",
+    "accentColor": "#2D2456"
+  }
+}

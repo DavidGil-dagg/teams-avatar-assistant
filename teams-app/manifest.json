@@ -1,0 +1,42 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.19/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.19",
+  "version": "0.1.0",
+  "id": "{{TEAMS_APP_ID}}",
+  "developer": {
+    "name": "{{DEVELOPER}}",
+    "websiteUrl": "https://{{FQDN}}/",
+    "privacyUrl": "https://{{FQDN}}/",
+    "termsOfUseUrl": "https://{{FQDN}}/"
+  },
+  "name": {
+    "short": "{{SHORT_NAME}}",
+    "full": "{{FULL_NAME}}"
+  },
+  "description": {
+    "short": "{{SHORT_DESCRIPTION}}",
+    "full": "{{FULL_DESCRIPTION}}"
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "accentColor": "{{ACCENT_COLOR}}",
+  "staticTabs": [
+    {
+      "entityId": "assistant",
+      "name": "{{SHORT_NAME}}",
+      "contentUrl": "https://{{FQDN}}/",
+      "websiteUrl": "https://{{FQDN}}/",
+      "scopes": ["personal"]
+    }
+  ],
+  "permissions": [],
+  "validDomains": ["{{FQDN}}"],
+  "showLoadingIndicator": false,
+  "webApplicationInfo": {
+    "id": "{{ENTRA_CLIENT_ID}}",
+    "resource": "{{ENTRA_APP_ID_URI}}"
+  },
+  "devicePermissions": ["media"]
+}

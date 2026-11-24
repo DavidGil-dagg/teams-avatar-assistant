@@ -1,0 +1,27 @@
+node_modules
+.next
+dist
+next-env.d.ts
+*.tsbuildinfo
+
+# Secretos y configuración local
+.env
+.env.*
+!.env.example
+
+# Marcas: solo se versiona la de marca blanca. Cualquier otra carpeta dentro de
+# brands/ (la marca de una empresa, por ejemplo) se queda en esta máquina.
+brands/*
+!brands/default/
+!brands/README.md
+# Trabajo intermedio de la generación del avatar (PNG originales del modelo).
+brands/*/work/
+
+# Paquete de Teams generado
+teams-app/*.zip
+teams-app/build
+teams-app/app-id.txt
+
+# Herramientas locales
+.claude/*
+!.claude/launch.json

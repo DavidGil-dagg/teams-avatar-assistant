@@ -1,0 +1,55 @@
+{
+  "name": "teams-assistant",
+  "version": "0.1.0",
+  "private": true,
+  "packageManager": "pnpm@10.28.2",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "smoke:foundry": "tsx --env-file-if-exists=.env scripts/smoke-foundry.ts",
+    "decide": "tsx --env-file-if-exists=.env scripts/try-decision.ts",
+    "avatar:generate": "tsx --env-file-if-exists=.env scripts/generate-avatar.ts",
+    "entra:register": "node scripts/register-entra.mjs",
+    "teams:package": "node --env-file-if-exists=.env scripts/make-teams-package.mjs"
+  },
+  "dependencies": {
+    "@azure/identity": "^4.14.1",
+    "@azure/msal-node": "^7.2.1",
+    "@microsoft/teams-js": "^2.59.0",
+    "jose": "^6.2.16",
+    "next": "16.3.3",
+    "react": "19.2.3",
+    "react-dom": "19.2.3"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^22",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.11",
+    "postcss": "^8.5.15",
+    "prettier": "3.8.1",
+    "sharp": "0.35.4",
+    "tailwindcss": "^4",
+    "tsx": "^4.21.0",
+    "typescript": "^5",
+    "vitest": "^4.1.8"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "sharp",
+      "esbuild",
+      "@tailwindcss/oxide"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "basePrompt": [
+    "Character sprite for a 2D virtual assistant avatar.",
+    "A poised young adult woman, a friendly and capable professional assistant, drawn in clean modern anime style with crisp cel shading and confident line art. She is approachable and professional, not a fantasy character.",
+    "Half-body portrait from the waist up, facing the viewer straight on, perfectly centered, symmetrical pose, shoulders level, head upright, arms relaxed at her sides.",
+    "Calm, composed neutral expression, eyes open and looking at the viewer, mouth closed.",
+    "Shoulder-length dark brown hair with a neat side part, swept away from the face so the whole forehead and both eyebrows are clearly visible. Warm hazel eyes.",
+    "Modest, formal business attire with natural, realistic proportions: a tailored deep indigo blazer (#2D2456 shading to #17122B) over a cream-white blouse buttoned all the way up to the collar (high neckline, no cleavage), slim amber (#F5B642) piping on the lapels and a small round amber lapel pin. Small amber stud earrings.",
+    "No headwear, no glasses, no headset, no microphone.",
+    "Palette limited to indigo, amber, soft lilac (#B9A8FF), neutral gray and cream white, with a natural skin tone.",
+    "Even, soft front lighting. No cast shadow, no ground, no scenery. Transparent background.",
+    "The figure fills the frame: the top of the head sits near the top edge with a small margin and the body is cut by the bottom edge at the waist.",
+    "No text, no letters, no logo, no watermark, no border, no props."
+  ],
+  "face": {
+    "cx": 0.5,
+    "cy": 0.27,
+    "rx": 0.15,
+    "ryTop": 0.105,
+    "ryBottom": 0.125,
+    "topPower": 4,
+    "feather": 0.012,
+    "split": 0.308,
+    "splitFeather": 0.005
+  }
+}

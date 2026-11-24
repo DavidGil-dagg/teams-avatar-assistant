@@ -1,0 +1,67 @@
+{
+  "version": 1795563779,
+  "width": 768,
+  "height": 1152,
+  "bodies": [
+    "body-base",
+    "body-wave",
+    "body-think",
+    "body-point",
+    "body-bow"
+  ],
+  "eyes": {
+    "box": {
+      "left": 0.3411458333333333,
+      "top": 0.1762152777777778,
+      "width": 0.3177083333333333,
+      "height": 0.1579861111111111
+    },
+    "sprites": [
+      "eyes-neutral",
+      "eyes-neutral-blink",
+      "eyes-happy",
+      "eyes-happy-blink",
+      "eyes-fun",
+      "eyes-fun-blink",
+      "eyes-sad",
+      "eyes-sad-blink",
+      "eyes-angry",
+      "eyes-angry-blink",
+      "eyes-surprised",
+      "eyes-surprised-blink",
+      "eyes-thoughtful",
+      "eyes-thoughtful-blink"
+    ]
+  },
+  "mouth": {
+    "box": {
+      "left": 0.3411458333333333,
+      "top": 0.3211805555555556,
+      "width": 0.3177083333333333,
+      "height": 0.10416666666666667
+    },
+    "sprites": [
+      "mouth-neutral-closed",
+      "mouth-neutral-half",
+      "mouth-neutral-open",
+      "mouth-happy-closed",
+      "mouth-happy-half",
+      "mouth-happy-open",
+      "mouth-fun-closed",
+      "mouth-fun-half",
+      "mouth-fun-open",
+      "mouth-sad-closed",
+      "mouth-sad-half",
+      "mouth-sad-open",
+      "mouth-angry-closed",
+      "mouth-angry-half",
+      "mouth-angry-open",
+      "mouth-surprised-closed",
+      "mouth-surprised-half",
+      "mouth-surprised-open",
+      "mouth-thoughtful-closed",
+      "mouth-thoughtful-half",
+      "mouth-thoughtful-open"
+    ]
+  }
+}
